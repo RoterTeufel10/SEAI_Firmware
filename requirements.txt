@@ -1,0 +1,14 @@
+# AI & Orchestration
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.10
+
+# RAG & Parsing
+llama-parse==0.3.0
+chromadb==0.4.22
+tiktoken==0.5.2
+pypdf==4.0.1
+
+# System & Hardware Interface
+pygdbmi==0.10.0.2
+python-dotenv==1.0.1
