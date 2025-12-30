@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Arduino Firmware Generator</h2>
+  <form action="http://localhost:8000/generate" method="post" enctype="multipart/form-data">
+    <input type="file" name="pdf" required><br><br>
+    <textarea name="prompt" rows="5" cols="60"
+      placeholder="Example: Generate SPI master at 5 MHz"></textarea><br><br>
+    <button type="submit">Generate</button>
+  </form>
+</body>
+</html>
+
